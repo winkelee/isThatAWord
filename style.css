@@ -1,0 +1,169 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    background-color: #E0C0E0;
+    font-family: sans-serif;
+    text-align: center;
+    overflow: -moz-hidden-unscrollable;
+    transition: background-color 3s ease;
+    height: 100vh;
+  }
+
+#is{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    height: 100px;
+    color: white;
+}
+
+.quote{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    height: 100px;
+    color: white;
+}
+
+#word{
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 5vw;
+    height: 100px;
+    color: white;
+}
+
+#wordText{
+    margin-top: 8vh;
+}
+
+#question{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    height: 100px;
+    color: white;
+}
+
+#wordText2{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#textDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+#answer{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 7vw;
+    height: 100px;
+    color: white;
+    padding: 1cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#answerDesc{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+    height: 100px;
+    color: white;
+
+}
+
+#answerLink{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    height: 100px;
+    color: white;
+    margin-top: 25px;
+}
+
+#choiceButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#yes{
+    width: 150px;
+    height: 70px;
+    color: white;
+    background-color: #D590FF;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+#no{
+    width: 150px;
+    height: 70px;
+    color: white;
+    background-color: #D590FF;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+#next{
+    padding: 35px;
+    color: white;
+    background-color: #d490ff8f;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#floor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: 2vh;
+}
+
+#madeby{
+    color: white;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+}
+
+#linkc{
+    color: white;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+}
+
+#pointsSpan{
+    color: white;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+}
+
+#pointsCounter{
+    color: white;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+}
